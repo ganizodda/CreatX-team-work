@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="./output.css">
     <title>CreateX</title>
   </head>
-  <body>
-    <header>
-      <div class="flex justify-between p-[20px] items-center lg:max-w-[1300px] lg:m-auto lg:bg-[#ffffff]">
+  <body class="font-sans">
+    <header class="bg-[#F4F5F6] z-[30]">
+      <div class="flex justify-between p-[20px] items-center lg:max-w-[1300px] lg:m-auto lg:bg-[#F4F5F6]">
         <div>
           <img src="./images/logo.svg" alt="" class="w-[400px] lg:w-[170px] hover:rotate-8 transition-all duration-500 active:rotate-360 ">
         </div>
-        <div class="hidden lg:flex lg:gap-[50px] font-[600]">
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>About Us</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>Services</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>Work</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>News</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>Contacts</p></a>
+        <div class="hidden lg:flex lg:gap-[50px] font-[600] z-50">
+          <a class="hover:text-[#FF5A30] transition-all duration-400 hover:-rotate-16" href=""><p>About Us</p></a>
+          <a class="hover:text-[#FF5A30] transition-all duration-400 hover:rotate-16" href=""><p>Services</p></a>
+          <a class="hover:text-[#FF5A30] transition-all duration-400 hover:-rotate-16" href=""><p>Work</p></a>
+          <a class="hover:text-[#FF5A30] transition-all duration-400 hover:rotate-16" href=""><p>News</p></a>
+          <a class="hover:text-[#FF5A30] transition-all duration-400 hover:-rotate-16" href=""><p>Contacts</p></a>
         </div>
-        <div class="hidden lg:flex lg:gap-[20px]">
+        <div class="hidden lg:flex lg:gap-[20px] z-50">
           <div class="flex gap-[10px] items-center">
-            <div class="text-[#FF5A30] text-[35px] hover:rotate-360 transition-all duration-800 active:scale-75 active:duration-300 active:text-[#000]">
+            <div class="text-[#FF5A30] text-[35px] hover:rotate-360 transition-all duration-800 active:scale-75 active:duration-300 sm:hidden lg:flex flex active:text-[#000]">
               <i class="fa-solid fa-mobile-screen-button"></i>
             </div>
             <div>
@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="flex gap-[10px] items-center">
-            <div class="text-[#FF5A30] text-[35px] hover:rotate-4320 transition-all duration-1200">
+            <div class="text-[#FF5A30] text-[35px] hover:rotate-4320 transition-all duration-1200 active:rotate-0">
               <i class="fa-regular fa-comments"></i>
             </div>
             <div>
@@ -46,5 +46,16 @@
         </div>
       </div>
     </header>
+    <section class="bg-[#f4f5f6] lg:h-[580px]">
+      <div class="relative lg:relative lg:max-w-[1200px] lg:m-auto">
+      <p class="text-[#f4f5f6]">.</p>
+      <div class="relative lg:relative z-50">
+        <h3 class="text-[#424551] text-[40px] font-[500] ml-[30px] mt-[50px] lg:text-[18px] hover:translate-x-20 active:-translate-x-20 transition-all duration-500">Homepage / <span class="text-[#9A9CA5]">About Us</span></h3>
+        <h1 class="text-[#1E212C] ml-[30px] mt-[40px] text-[120px] font-[750] lg:text-[70px] hover:rotate-x-200 transition-all duration-900 active:rotate-x-0">ABOUT US</h1>
+        <p class="ml-[30px] mt-[10px] text-[32px] text-[#787A80] lg:text-[20px] hover:translate-y-10 active:opacity-0 transition-all duration-1000">Createx Construction Bureau has been successfully operating <br> in the USA construction market since 2000. We are proud to offer <br> you quality construction and exemplary service.</p>
+      </div>
+      <img src="./images/Group 273.png" alt="" class="lg:absolute lg:top-[-100px] lg:left-[370px] lg:w-[991px] lg:top-[-1px] lg:top-[2px]">
+      </div>
+    </section>
   </body>
 </html>
