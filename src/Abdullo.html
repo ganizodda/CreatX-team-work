@@ -1,56 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
-  <header>
-      <div class="flex justify-between p-[20px] items-center lg:max-w-[1300px] lg:m-auto lg:bg-[#ffffff]">
-        <div>
-          <img src="./images/logo.png" alt="" class="w-[400px] lg:w-[170px] hover:rotate-8 transition-all duration-500 active:rotate-360 ">
+  <header class="bg-[#F4F5F6] max-w-300 m-auto">
+    <div class="flex justify-between p-[20px] items-center lg:max-w-[1300px] lg:m-auto lg:bg-[#F4F5F6]">
+      <div>
+        <img src="./images/logo.png" alt=""
+          class="w-[400px] lg:w-[170px] hover:rotate-8 transition-all duration-500 active:rotate-360 ">
+      </div>
+      <div class="hidden lg:flex lg:gap-[50px] font-[600]">
+        <a class="hover:text-[#FF5A30] transition-all duration-500" href="">
+          <p>About Us</p>
+        </a>
+        <a class="hover:text-[#FF5A30] transition-all duration-500" href="">
+          <p>Services</p>
+        </a>
+        <a class="hover:text-[#FF5A30] transition-all duration-500" href="">
+          <p>Work</p>
+        </a>
+        <a class="hover:text-[#FF5A30] transition-all duration-500" href="">
+          <p>News</p>
+        </a>
+        <a class="hover:text-[#FF5A30] transition-all duration-500" href="">
+          <p>Contacts</p>
+        </a>
+      </div>
+      <div class="hidden lg:flex lg:gap-[20px]">
+        <div class="flex gap-[10px] items-center">
+          <div
+            class="text-[#FF5A30] text-[35px] hover:rotate-360 transition-all duration-800 active:scale-75 active:duration-300 active:text-[#000]">
+            <img src="./images/iPhone.png" alt="">
+          </div>
+          <div>
+            <h1 class="#424551 font-[600]">Call us</h1>
+            <p>(405) 555-0128</p>
+          </div>
         </div>
-        <div class="hidden lg:flex lg:gap-[50px] font-[600]">
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>About Us</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>Services</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>Work</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>News</p></a>
-          <a class="hover:text-[#FF5A30] transition-all duration-500" href=""><p>Contacts</p></a>
-        </div>
-        <div class="hidden lg:flex lg:gap-[20px]">
-          <div class="flex gap-[10px] items-center">
-            <div class="text-[#FF5A30] text-[35px] hover:rotate-360 transition-all duration-800 active:scale-75 active:duration-300 active:text-[#000]">
-             <img src="./images/iPhone.png" alt="">
+        <div class="flex gap-[10px] items-center">
+          <div class="text-[#FF5A30] text-[35px] hover:rotate-4320 transition-all duration-1200">
+          </div>
+          <div class="lg:flex gap-[5px] ">
+            <div
+              class="text-[#FF5A30] text-[35px] hover:rotate-360 transition-all duration-800 active:scale-75 active:duration-300 active:text-[#000]">
+              <img src="./images/Chat.png" alt="">
             </div>
             <div>
-              <h1 class="#424551 font-[600]">Call us</h1>
-              <p>(405) 555-0128</p>
-            </div>
-          </div>
-          <div class="flex gap-[10px] items-center">
-            <div class="text-[#FF5A30] text-[35px] hover:rotate-4320 transition-all duration-1200">
-            </div>
-            <div class="lg:flex gap-[5px] ">
-              <div class="text-[#FF5A30] text-[35px] hover:rotate-360 transition-all duration-800 active:scale-75 active:duration-300 active:text-[#000]">
-               <img src="./images/Chat.png" alt="">
-               </div>
-             <div>
-               <h1 class="#424551 font-[600]">Talk to us</h1>
+              <h1 class="#424551 font-[600]">Talk to us</h1>
               <h1 class="#424551 font-[200]">hello@createx.com</h1>
-             </div>
             </div>
           </div>
         </div>
-        <div class="text-[#FF5A30] text-[80px] lg:hidden">
-        </div>
       </div>
-    </header>
-    <section>
-      <div>
-        
+      <div class="text-[#FF5A30] text-[80px] lg:hidden">
       </div>
-    </section>
+    </div>
+  </header>
+  <section class="lg:flex justify-between max-w-300 m-auto items-center justify-around w-[100%] bg-[#F4F5F6] p-[40px] h-[600px] lg:[h-500px] lg:p-[80px] lg:flex-row flex flex-col gap-[20px] lg:gap-0">
+    <div class="">
+      <div class="flex text-[15px] text-center lg:text-justify m-auto lg:m-0">
+        <h4>
+          Homepage/
+        </h4>
+        <h4>
+          About Us/
+        </h4>
+        <h4 class="text-[grey] text-center lg:text-justify">
+          Available Positions
+        </h4>
+      </div>
+      <div class="text-center lg:text-justify">
+        <h1 class="text-[55px] font-bold">
+          AVAILABLE <br>POSITIONS
+        </h1>
+      </div>
+      <div class="text-center lg:text-justify"> 
+        <h4 class="text-[grey]">
+          Build your career with Createx Construction Bureau.
+        </h4>
+      </div>
+    </div>
+      <img class="lg:w-[60%]" src="./image (13).png" alt="">
+  </section>
 </body>
+
 </html>
